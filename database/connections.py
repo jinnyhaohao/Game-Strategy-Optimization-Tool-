@@ -21,9 +21,6 @@ class TFTDatabase:
             raise
 
     def insert_match_data(self, match_data):
-        """
-        Insert match data, participants, traits, and units into the database.
-        """
         try:
             # Insert match details
             self.cursor.execute("""
@@ -85,7 +82,7 @@ class TFTDatabase:
                         unit["character_id"],
                         unit["rarity"],
                         unit["tier"],
-                        ",".join(map(str, unit["items"]))  # Convert list to comma-separated string
+                        ",".join(map(str, unit.get("itemNames", [])))  # Handle missing items
                     ))
 
             # Commit the transaction
@@ -93,7 +90,8 @@ class TFTDatabase:
             print(f"Match {match_data['metadata']['match_id']} inserted successfully.")
         except Exception as e:
             print(f"Error inserting match data: {e}")
-            self.conn.rollback()  # Rollback transaction in case of error
+            self.conn.rollback()  # Rollback in case of error
+
 
     def close_connection(self):
         """
