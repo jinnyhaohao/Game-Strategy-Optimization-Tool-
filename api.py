@@ -53,7 +53,10 @@ def get_match_details(region, match_id):
         return None
 
 if match_history:
-    for match_id in match_history[0]:
+    for match_id in match_history[:1]:
+        print(match_id)
         match_details = get_match_details(region, match_id)
+    
         if match_details:
             print(f"Match Details for {match_id}:", match_details)
+
