@@ -1,6 +1,6 @@
 import networkx as nx
 from database import connections # Import your database class
-import matplotlib.pyplot as plt
+
 
 def build_graph(cursor):
     """

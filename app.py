@@ -41,8 +41,8 @@ def analyze_performance(cursor, puuid):
 app = Flask(__name__)
 
 # Initialize Riot API and Database
-api_key = "your-api-key"
-region = "na1"
+api_key = "RGAPI-f245a814-3301-4ccc-b4fc-63e425a9f209"
+region = "americas"
 riot_api = RiotAPI(api_key, region)
 
 @app.route('/api/analyze', methods=['GET'])

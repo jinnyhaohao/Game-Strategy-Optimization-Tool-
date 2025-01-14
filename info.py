@@ -2,7 +2,7 @@ import api
 from database import connections
 
 # Initialize Riot API and database
-api_key = "RGAPI-dd02f7e9-cc42-4f2b-b4e1-18e74fba570e"
+api_key = "RGAPI-f245a814-3301-4ccc-b4fc-63e425a9f209"
 region = "americas"
 riot_api = api.RiotAPI(api_key, region)
 
