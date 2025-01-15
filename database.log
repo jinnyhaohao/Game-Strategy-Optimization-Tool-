@@ -1,0 +1,86 @@
+2025-01-14 19:02:46,390 - INFO - Database connection established.
+2025-01-14 19:02:46,582 - INFO - Database connection closed.
+2025-01-14 19:03:11,565 - INFO - Database connection established.
+2025-01-14 19:03:11,617 - INFO - Database connection closed.
+2025-01-14 19:05:40,631 - INFO - Database connection established.
+2025-01-14 19:05:40,647 - INFO - Database connection closed.
+2025-01-14 19:05:53,746 - INFO - Database connection established.
+2025-01-14 19:05:53,756 - INFO - Database connection closed.
+2025-01-14 19:09:16,562 - INFO - Database connection established.
+2025-01-14 19:09:16,588 - INFO - Database connection closed.
+2025-01-14 19:11:04,957 - INFO - Database connection established.
+2025-01-14 19:11:04,970 - INFO - Database connection closed.
+2025-01-14 19:11:40,142 - INFO - Database connection established.
+2025-01-14 19:11:40,160 - INFO - Database connection closed.
+2025-01-14 19:12:00,657 - INFO - Database connection established.
+2025-01-14 19:12:00,670 - INFO - Database connection closed.
+2025-01-14 19:12:05,456 - INFO - Database connection established.
+2025-01-14 19:12:05,468 - INFO - Database connection closed.
+2025-01-14 19:12:35,061 - INFO - Database connection established.
+2025-01-14 19:12:35,077 - INFO - Database connection closed.
+2025-01-14 19:13:44,276 - INFO - Database connection established.
+2025-01-14 19:13:44,290 - INFO - Database connection closed.
+2025-01-14 19:13:59,372 - INFO - Database connection established.
+2025-01-14 19:13:59,384 - INFO - Database connection closed.
+2025-01-14 19:14:16,767 - INFO - Database connection established.
+2025-01-14 19:14:16,767 - INFO - Database connection closed.
+2025-01-14 19:18:47,821 - INFO - Database connection established.
+2025-01-14 19:18:47,839 - INFO - Database connection closed.
+2025-01-14 19:19:56,813 - INFO - Database connection established.
+2025-01-14 19:21:01,647 - INFO - Database connection closed.
+2025-01-14 19:23:22,739 - INFO - Database connection established.
+2025-01-14 19:23:22,855 - INFO - Database connection closed.
+2025-01-14 19:24:44,751 - INFO - Database connection established.
+2025-01-14 19:24:44,899 - INFO - Database connection closed.
+2025-01-14 19:24:59,666 - INFO - Database connection established.
+2025-01-14 19:24:59,791 - INFO - Database connection closed.
+2025-01-14 19:25:10,549 - INFO - Database connection established.
+2025-01-14 19:25:14,095 - INFO - Database connection closed.
+2025-01-14 19:27:58,980 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-14 19:27:58,981 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-14 19:27:58,981 - INFO -  * Restarting with stat
+2025-01-14 19:27:59,799 - WARNING -  * Debugger is active!
+2025-01-14 19:27:59,799 - INFO -  * Debugger PIN: 125-193-705
+2025-01-14 19:28:05,355 - INFO - Database connection established.
+2025-01-14 19:28:05,355 - INFO - Database connection closed.
+2025-01-14 19:28:05,355 - INFO - 127.0.0.1 - - [14/Jan/2025 19:28:05] "GET /api/analyze?summoner=Shiyo&tag=NA1 HTTP/1.1" 200 -
+2025-01-14 19:28:23,898 - INFO - Database connection established.
+2025-01-14 19:28:24,105 - INFO - Database connection closed.
+2025-01-14 19:28:24,105 - INFO - 127.0.0.1 - - [14/Jan/2025 19:28:24] "GET /recommendations?top_n=5&combo_size=3 HTTP/1.1" 200 -
+2025-01-14 19:31:52,635 - INFO -  * Detected change in 'c:\\Users\\jinha\\OneDrive\\Desktop\\TFT-Analyzer\\traits.py', reloading
+2025-01-14 19:31:52,715 - INFO -  * Restarting with stat
+2025-01-14 19:31:53,493 - WARNING -  * Debugger is active!
+2025-01-14 19:31:53,493 - INFO -  * Debugger PIN: 125-193-705
+2025-01-14 19:32:20,390 - INFO - Database connection established.
+2025-01-14 19:32:20,410 - INFO - Database connection closed.
+2025-01-14 19:36:30,509 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-14 19:36:30,509 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-14 19:36:30,515 - INFO -  * Restarting with stat
+2025-01-14 19:36:31,409 - WARNING -  * Debugger is active!
+2025-01-14 19:36:31,412 - INFO -  * Debugger PIN: 125-193-705
+2025-01-14 19:36:34,047 - INFO - 127.0.0.1 - - [14/Jan/2025 19:36:34] "[35m[1mGET /top_traits HTTP/1.1[0m" 500 -
+2025-01-14 19:36:42,263 - INFO - 127.0.0.1 - - [14/Jan/2025 19:36:42] "[35m[1mGET /top_trait_combinations HTTP/1.1[0m" 500 -
+2025-01-14 19:37:30,205 - INFO -  * Detected change in 'c:\\Users\\jinha\\OneDrive\\Desktop\\TFT-Analyzer\\app.py', reloading
+2025-01-14 19:37:30,325 - INFO -  * Restarting with stat
+2025-01-14 19:37:31,190 - WARNING -  * Debugger is active!
+2025-01-14 19:37:31,192 - INFO -  * Debugger PIN: 125-193-705
+2025-01-14 19:37:37,754 - INFO - 127.0.0.1 - - [14/Jan/2025 19:37:37] "[33mGET /get-recommendatiosn HTTP/1.1[0m" 404 -
+2025-01-14 19:37:37,806 - INFO - 127.0.0.1 - - [14/Jan/2025 19:37:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-14 19:37:42,364 - INFO - 127.0.0.1 - - [14/Jan/2025 19:37:42] "[33mGET /get-recommendations HTTP/1.1[0m" 404 -
+2025-01-14 19:40:16,445 - INFO -  * Detected change in 'c:\\Users\\jinha\\OneDrive\\Desktop\\TFT-Analyzer\\app.py', reloading
+2025-01-14 19:40:16,513 - INFO -  * Restarting with stat
+2025-01-14 19:40:17,351 - WARNING -  * Debugger is active!
+2025-01-14 19:40:17,353 - INFO -  * Debugger PIN: 125-193-705
+2025-01-14 19:40:49,680 - INFO - Database connection established.
+2025-01-14 19:40:49,684 - INFO - Database connection closed.
+2025-01-14 19:40:49,685 - INFO - 127.0.0.1 - - [14/Jan/2025 19:40:49] "GET /api/analyze?summoner=Shiyo&tag=NA1 HTTP/1.1" 200 -
+2025-01-14 19:41:43,947 - INFO - 127.0.0.1 - - [14/Jan/2025 19:41:43] "[33mGET /recommend-combinations?top_n=5&combo_size=3 HTTP/1.1[0m" 404 -
+2025-01-14 19:41:47,104 - INFO - 127.0.0.1 - - [14/Jan/2025 19:41:47] "[33mGET /recommend-combinations?top_n=5&combo_size=4 HTTP/1.1[0m" 404 -
+2025-01-14 19:42:18,046 - INFO - Database connection established.
+2025-01-14 19:42:18,254 - INFO - Database connection closed.
+2025-01-14 19:42:18,254 - INFO - 127.0.0.1 - - [14/Jan/2025 19:42:18] "GET /recommendations?top_n=5&combo_size=3 HTTP/1.1" 200 -
+2025-01-14 19:42:31,793 - INFO - Database connection established.
+2025-01-14 19:42:32,028 - INFO - Database connection closed.
+2025-01-14 19:42:32,029 - INFO - 127.0.0.1 - - [14/Jan/2025 19:42:32] "GET /recommendations?top_n=5&combo_size=3 HTTP/1.1" 200 -
