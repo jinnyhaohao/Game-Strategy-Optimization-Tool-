@@ -1,17 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import SummonerAnalysis from './components/summoner';
 import TraitsAnalysis from './components/traits';
 import Recommendations from './components/recommendations';
+import './App.css';
+
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import SummonerForm from './components/SummonerForm'; // Import your form component
 
 const App = () => {
   return (
     <Router>
-      <div>
+      <div style={{ padding: '20px' }}>
+        <h1>TFT Analyzer</h1>
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Summoner Form</Link>
             </li>
             <li>
               <Link to="/summoner">Summoner Analysis</Link>
@@ -26,7 +30,7 @@ const App = () => {
         </nav>
 
         <Routes>
-          <Route path="/" element={<h1>Welcome to TFT Analyzer</h1>} />
+          <Route path="/" element={<SummonerForm />} />
           <Route path="/summoner" element={<SummonerAnalysis />} />
           <Route path="/traits" element={<TraitsAnalysis />} />
           <Route path="/recommendations" element={<Recommendations />} />

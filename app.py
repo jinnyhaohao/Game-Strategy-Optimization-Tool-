@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from api import RiotAPI
 from database import connections
+from flask_cors import CORS
 from synergies import (
     build_unit_graph,
     recommend_unit_pairs,
@@ -47,9 +48,10 @@ def analyze_performance(cursor, puuid):
     }
 
 app = Flask(__name__)
+CORS(app)
 
 # Initialize Riot API and Database
-api_key = "RGAPI-f245a814-3301-4ccc-b4fc-63e425a9f209"
+api_key = "RGAPI-ae7970cf-9558-4f1e-a629-bbba8e95503e"
 region = "americas"
 riot_api = RiotAPI(api_key, region)
 
