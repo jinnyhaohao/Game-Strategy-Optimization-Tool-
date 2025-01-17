@@ -141,7 +141,7 @@ def analyze_summoner():
     puuid = summoner_info["puuid"]
 
     # Fetch Match History
-    match_history = riot_api.get_match_history(puuid, count=5)
+    match_history = riot_api.get_match_history(puuid, count=100)
     if not match_history:
         return jsonify({"error": "No match history found"}), 404
 

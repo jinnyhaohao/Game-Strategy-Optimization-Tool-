@@ -24,7 +24,7 @@ if summoner_info:
     print(f"PUUID for {summoner_name}: {puuid}")
 
     # Fetch match history
-    match_history = riot_api.get_match_history(puuid, count=5)
+    match_history = riot_api.get_match_history(puuid, count=100)
     if match_history:
         print(f"Match IDs: {match_history}")
 
